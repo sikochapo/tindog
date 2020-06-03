@@ -1,0 +1,107 @@
+#title {background-color: #ff4c68;}
+h1,h2,h3 {font-family: "Montserrat"}
+
+body {font-family: "Montserrat"; text-align: center;}
+p {color: #8f8f8f;}
+
+
+/****containers****/
+.container-fluid {padding: 7% 15%;}
+
+/*****section******/
+.colored-section {background-color: #ff4c68;
+                  color: #ffff;}
+.white-section {background-color: #ffff;}
+
+
+/*****Headings******/
+.big-heading {font-family: "Montserrat";
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: white;
+    margin-right: 10%;}
+.section-heading {font-size: 3rem;
+                  font-weight: bold;
+                  line-height: 1.5;}
+
+
+/***title******/
+
+#title .container-fluid {text-align: left; padding: 3% 15% 7%;}
+.navbar-brand {font-size: 3rem;font-family: "Ubuntu"; }
+.navbar {padding: 0 0 70px;}
+.nav-link {font-size: 1.2rem;
+          margin-right: 50px;
+          font-family: "Montserrat";}
+
+.phone {width: 60%;
+        transform: rotate(25deg);
+        margin-left: 70px;
+        position: absolute;}
+
+
+/*****button*****/
+.download-btn {margin: 5% 3% 5% 0;}
+
+
+/*****features section*****/
+
+#features {position: relative;}
+.middle-section {margin-top: 60px;}
+.fas {color: #ef8172; font-size: 7rem; padding-bottom: 5%;}
+.fas:hover {color: #ff4c68;}
+.col-lg-4 {padding: 7%;}
+.feature-title {font-weight: 900;
+                font-size: 1.5rem;}
+
+/******testimonials********/
+
+#testimonials {text-align: center;
+             background-color: #ef8172;position: relative;}
+
+.testimonial-image {width: 10%;
+                    border-radius: 100%;
+                    margin: 20px}
+.carousel-item {padding: 7% 15%;}
+
+#press { padding: 3%;
+      background-color:#ef8172;}
+.press-logo {width: 15%;
+            margin: 20px 20px 50px;}
+.testimonial-text {font-size: 3rem;
+                  font-weight: bold;
+                  line-height: 1.5;}
+
+
+
+/********pricing*********/
+
+#pricing {padding: 100px;
+         position: relative;}
+
+.price-text {font-size: 3rem;
+            font-weight: bold;
+            line-height: 1.5;}
+
+@media (max-width: 900px){
+
+.phone {position: static; transform: rotate(0);}
+
+#title {text-align: center;}
+
+
+
+/******cta******/
+
+.Calltoaction {font-family: "Montserrat";
+              font-size: 4rem;
+              font-weight: 900;
+              line-height: 1.5;
+              padding:0 100px;}
+
+
+/****footer******/
+.end-link {color: black;
+      font-size: 1rem;
+      padding: 0 10px 30px;}
